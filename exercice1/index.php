@@ -1,11 +1,6 @@
 <?php
-
-function myfunction() {
-    return true;
-    } ;
-
+$months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
 ?>
-
 
 
 <!DOCTYPE html>
@@ -20,12 +15,26 @@ function myfunction() {
 <body>
     <h1>Exercice 1</h1>
 
-    <p>Faire une fonction qui retourne true.</p>
-   
+    <p>Créer un tableau <b>months</b> et l'initialiser avec les valeurs suivantes :</p>
+        <ul>
+            <li>janvier</li>
+            <li>février</li>
+            <li>mars</li>
+            <li>avril</li>
+            <li>mai</li>
+            <li>juin</li>
+            <li>juillet</li>
+            <li>aout</li>
+            <li>septembre</li>
+            <li>octobre</li>
+            <li>novembre</li>
+            <li>décembre</li>
+        </ul>
+
 
     <p>===================================</p>
 
-    <p><?= myfunction() ?> </p>
+    <p><?= $months[0] ?> </p>
 
 
 </body>

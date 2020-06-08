@@ -1,8 +1,10 @@
 <?php
-
-function myfunction() {
-    return true;
-    } ;
+    $result ="";
+    $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+    
+    foreach ($months as $value) {
+        $result .= $value . "<br>";
+    }
 
 ?>
 
@@ -14,18 +16,18 @@ function myfunction() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exo1</title>
+    <title>exo8</title>
 </head>
 
 <body>
-    <h1>Exercice 1</h1>
+    <h1>Exercice 8</h1>
 
-    <p>Faire une fonction qui retourne true.</p>
-   
+    <p>Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.</p>
+
 
     <p>===================================</p>
 
-    <p><?= myfunction() ?> </p>
+    <p><?= $result ?> </p>
 
 
 </body>

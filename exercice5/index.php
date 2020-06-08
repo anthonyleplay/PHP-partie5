@@ -1,9 +1,5 @@
 <?php
-
-function myfunction() {
-    return true;
-    } ;
-
+$hautDeFrance = array(2=>"Aisne", 59=>"Nord", 60=>"Oise", 62=>"Pas-de-Calais", 80=>"Somme");
 ?>
 
 
@@ -14,18 +10,18 @@ function myfunction() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exo1</title>
+    <title>exo5</title>
 </head>
 
 <body>
-    <h1>Exercice 1</h1>
+    <h1>Exercice 5</h1>
 
-    <p>Faire une fonction qui retourne true.</p>
+    <p>Créer un tableau associatif avec comme index le numéro des départements des Hauts de France et en valeur leur nom.</p>
    
 
     <p>===================================</p>
 
-    <p><?= myfunction() ?> </p>
+    <p><?= $hautDeFrance[60] ?> </p>
 
 
 </body>

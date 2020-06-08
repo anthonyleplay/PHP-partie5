@@ -1,9 +1,5 @@
 <?php
-
-function myfunction() {
-    return true;
-    } ;
-
+$months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
 ?>
 
 
@@ -14,18 +10,18 @@ function myfunction() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exo1</title>
+    <title>exo3</title>
 </head>
 
 <body>
-    <h1>Exercice 1</h1>
+    <h1>Exercice 3</h1>
 
-    <p>Faire une fonction qui retourne true.</p>
+    <p>Avec le tableau de l'exercice , afficher la valeur de l'index 5.</p>
    
 
     <p>===================================</p>
 
-    <p><?= myfunction() ?> </p>
+    <p><?= $months[5] ?> </p>
 
 
 </body>
