@@ -1,5 +1,6 @@
 <?php
-$months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+    $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+    $months[7] = "aôut";
 ?>
 
 
@@ -21,9 +22,7 @@ $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet"
 
     <p>===================================</p>
 
-    <p><?php
-        $months[7] = "aôut";
-        echo $months[7]; ?> </p>
+    <p><?= $months[7]; ?> </p>
 
 
 </body>

@@ -34,7 +34,7 @@ $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet"
 
     <p>===================================</p>
 
-    <p><?= $months[0] ?> </p>
+    <p><?php print_r($months); ?> </p>
 
 
 </body>
