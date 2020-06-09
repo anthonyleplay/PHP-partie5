@@ -1,6 +1,19 @@
 <?php
     $result ="";
-    $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+    $months = array(
+        "janvier", 
+        "février", 
+        "mars", 
+        "avril", 
+        "mai", 
+        "juin", 
+        "juillet", 
+        "aout", 
+        "septembre", 
+        "octobre", 
+        "novembre", 
+        "décembre"
+    );
     
     foreach ($months as $value) {
         $result .= $value . "<br>";

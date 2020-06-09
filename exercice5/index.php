@@ -1,5 +1,11 @@
 <?php
-$hautDeFrance = array(2=>"Aisne", 59=>"Nord", 60=>"Oise", 62=>"Pas-de-Calais", 80=>"Somme");
+    $hautDeFrance = array(
+        2=>"Aisne", 
+        59=>"Nord", 
+        60=>"Oise", 
+        62=>"Pas-de-Calais", 
+        80=>"Somme"
+    );
 ?>
 
 
@@ -21,7 +27,7 @@ $hautDeFrance = array(2=>"Aisne", 59=>"Nord", 60=>"Oise", 62=>"Pas-de-Calais", 8
 
     <p>===================================</p>
 
-    <p><?= $hautDeFrance[60] ?> </p>
+    <p><?php print_r($hautDeFrance) ?> </p>
 
 
 </body>
